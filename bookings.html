@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Book Your Trip - Plan Your Dream Vacation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Header Section -->
+<header>
+    <div class="header-container">
+        <h1>Visit Taniti</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">FAQ</a></li>
+                <li><a href="attractions.html">Attractions</a></li>
+                <li><a href="accommodations.html">Accommodations</a></li>
+                <li><a href="bookings.html" class="active">Bookings</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- Bookings Overview Section -->
+<section class="bookings">
+    <div class="bookings-container">
+        <h2>Book Your Trip</h2>
+        <p>Ready to make your dream vacation a reality? Use our easy booking system to secure your stay and plan unforgettable experiences on the beautiful island of Taniti.</p>
+    </div>
+</section>
+
+<!-- Book Accommodations Section -->
+<section class="book-accommodations">
+    <div class="book-accommodations-container">
+        <h3>Book Accommodations</h3>
+        <p>From beachfront resorts to cozy bed and breakfasts, find the perfect place to stay. Use the search filters to find accommodations that match your needs by price, location, and amenities.</p>
+        <form action="#" method="GET">
+            <label for="accommodation-type">Accommodation Type:</label>
+            <select id="accommodation-type" name="accommodation-type">
+                <option value="all">All</option>
+                <option value="budget">Budget</option>
+                <option value="luxury">Luxury</option>
+                <option value="family">Family-Friendly</option>
+            </select>
+
+            <label for="location">Location:</label>
+            <select id="location" name="location">
+                <option value="all">All Locations</option>
+                <option value="beachfront">Beachfront</option>
+                <option value="city">Taniti City</option>
+                <option value="rainforest">Near Rainforest</option>
+            </select>
+
+            <label for="price-range">Price Range:</label>
+            <input type="number" id="min-price" name="min-price" placeholder="Min Price">
+            <input type="number" id="max-price" name="max-price" placeholder="Max Price">
+
+            <button type="submit">Search</button>
+        </form>
+    </div>
+</section>
+
+<!-- Book Activities Section -->
+<section class="book-activities">
+    <div class="book-activities-container">
+        <h3>Book Activities</h3>
+        <p>Don’t miss out on Taniti’s exciting activities. Reserve your spot for popular experiences like snorkeling, hiking, boat tours, and zip-lining. Choose your adventure and secure your place in advance.</p>
+        <form action="#" method="GET">
+            <label for="activity-type">Activity Type:</label>
+            <select id="activity-type" name="activity-type">
+                <option value="all">All Activities</option>
+                <option value="snorkeling">Snorkeling</option>
+                <option value="hiking">Hiking</option>
+                <option value="boat-tours">Boat Tours</option>
+                <option value="zip-lining">Zip-lining</option>
+            </select>
+
+            <label for="date">Preferred Date:</label>
+            <input type="date" id="date" name="date">
+
+            <button type="submit">Find Activities</button>
+        </form>
+    </div>
+</section>
+
+<!-- Special Offers Section -->
+<section class="special-offers">
+    <div class="special-offers-container">
+        <h3>Special Offers</h3>
+        <p>Take advantage of our exclusive vacation packages and special offers, including family packages, honeymoon specials, and seasonal discounts.</p>
+        <ul>
+            <li><strong>Honeymoon Package:</strong> Includes luxury accommodations and romantic dinners.</li>
+            <li><strong>Family Fun Package:</strong> Get discounts on accommodations and tickets to family-friendly attractions.</li>
+            <li><strong>Early Bird Discount:</strong> Book 3 months in advance and save 20% on your stay.</li>
+        </ul>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer>
+    <div class="footer-container">
+        <p>&copy; 2024 Visit Taniti | All Rights Reserved</p>
+        <nav>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+
+</body>
+</html>
